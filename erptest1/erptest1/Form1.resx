@@ -179,16 +179,6 @@
         XmrqZvvX9Sa/iSZmN1pafgOjSEjCGRj4fAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAARhJREFUWEft
-        kVFuglAQRfnRPdS4FpsY1lQ3ZDRxQbXbaON38c5wQFTiAHkmYjjJRO7lzrzhmU1MvB3FA4g8F85qhchz
-        4ayrw7BGvoD656oN0pGetXgO0sEavoB6c9VPc4ge16rvG+/TtIHlYPVfQD1L1cG7LyxU+/Kx5kO1Vf27
-        KoojIxy87gso69etOlmj+OXX+Lv5Nar3lre+OaMcfyOQMcr6dQv7Ivsy+8ImO5XdRBO7qSUjrihf91ug
-        YoVVefafr7Eq76jKsVopYwMWQDqSX6oZ0pG+u+42lHGQMeS7NwQwbvgCyGQ6hHyyA5G1DiHfvSGAcSNe
-        AJlMh5BPdiCy1iHkuzcEMG6EC6SG8THkk8P4iYlXIsvOi95qhUJn0fUAAAAASUVORK5CYII=
-</value>
-  </data>
   <data name="pictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAQkAAAEJCAYAAACHaNJkAAAABGdBTUEAALGPC/xhBQAAITpJREFUeF7t
@@ -334,6 +324,16 @@
         b59dQnZmht4kYo1xtEGZKTt1oC7UKa2eRCKpWpifY2Q3bT50N2cRiA/gklrm8HmORvuEtQmcwQ9WvzxO
         2SgjZdWagkQSiKQOZDG7AHyxmd9zboGLZBja40zIn4BDYbgPrmPhq9/5N34H/A1/yzN4Fs/k2byDhUXW
         EHSqUiKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQSr1x00f8Bsm+LcpRdqBoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAARhJREFUWEft
+        kVFuglAQRfnRPdS4FpsY1lQ3ZDRxQbXbaON38c5wQFTiAHkmYjjJRO7lzrzhmU1MvB3FA4g8F85qhchz
+        4ayrw7BGvoD656oN0pGetXgO0sEavoB6c9VPc4ge16rvG+/TtIHlYPVfQD1L1cG7LyxU+/Kx5kO1Vf27
+        KoojIxy87gso69etOlmj+OXX+Lv5Nar3lre+OaMcfyOQMcr6dQv7Ivsy+8ImO5XdRBO7qSUjrihf91ug
+        YoVVefafr7Eq76jKsVopYwMWQDqSX6oZ0pG+u+42lHGQMeS7NwQwbvgCyGQ6hHyyA5G1DiHfvSGAcSNe
+        AJlMh5BPdiCy1iHkuzcEMG6EC6SG8THkk8P4iYlXIsvOi95qhUJn0fUAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

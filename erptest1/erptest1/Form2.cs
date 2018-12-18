@@ -25,10 +25,10 @@ namespace erptest1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string connectionString = "Data Source=192.168.233.129;Database=test1;User ID=root;Password=1234";
+            string connectionString = "Data Source=192.168.0.8;Database=SmartFactory;User ID=root;Password=1234";
             MySqlConnection myConnection = new MySqlConnection(connectionString);
             myConnection.Open();
-            MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT Role FROM Login WHERE UserName = '" + textBox1.Text + "' and PassWord = '" + textBox2.Text+"' ", myConnection);
+            MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT Role FROM Login WHERE UserID = '" + textBox1.Text + "' and Password = '" + textBox2.Text+"' ", myConnection);
             DataTable ds = new System.Data.DataTable();
             adapter.Fill(ds);
 
@@ -59,6 +59,11 @@ namespace erptest1
         private void button6_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }
