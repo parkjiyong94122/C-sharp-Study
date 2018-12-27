@@ -25,17 +25,17 @@ namespace erptest1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string connectionString = "Data Source=192.168.0.8;Database=SmartFactory;User ID=root;Password=1234";
+            string connectionString = "Data Source=192.168.0.16;Database=SmartFactory;User ID=root;Password=1234";
             MySqlConnection myConnection = new MySqlConnection(connectionString);
             myConnection.Open();
-            MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT Role FROM Login WHERE UserID = '" + textBox1.Text + "' and Password = '" + textBox2.Text+"' ", myConnection);
-            DataTable ds = new System.Data.DataTable();
+            MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT Role,UserID FROM Login WHERE UserID = '" + textBox1.Text + "' and Password = '" + textBox2.Text+"' ", myConnection);
+            DataTable ds = new DataTable();
             adapter.Fill(ds);
 
             if (ds.Rows.Count == 1)
             {
                 this.Hide();
-                Home home = new Home();
+                Home home = new Home(ds.Rows[0][1].ToString());
                 home.Show();
             }
             else
